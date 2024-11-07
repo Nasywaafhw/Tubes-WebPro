@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up - Aplikasi Medical Check-Up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="screen sign-up-screen">
+        <div class="logo">Medical Check-Up</div>
+        <h2>Hello!</h2>
+        <form>
+          <input type="text" placeholder="Username" required />
+          <input type="email" placeholder="Email" required />
+          <input type="password" placeholder="Password" required />
+          <div class="checkbox">
+            <input type="checkbox" id="terms" required />
+            <label for="terms">I agree to the terms and conditions</label>
+          </div>
+          <button
+            type="button"
+            class="main-button"
+            onclick="location.href='login.html'"
+          >
+            Sign Up
+          </button>
+          <p class="social-text">Log in with your social media account</p>
+          <div class="social-icons">
+            <div class="icon">
+              <img src="Gambar/facebook.png" alt="Facebook Logo" />
+            </div>
+            <div class="icon">
+              <img src="Gambar/Google.png" alt="Google Logo" />
+            </div>
+            <div class="icon">
+              <img src="Gambar/twitter.jpg" alt="Twitter Logo" />
+            </div>
+          </div>
+        </form>
+        <p class="switch-text">
+          Already have an account? <a href="login.html">Login</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
